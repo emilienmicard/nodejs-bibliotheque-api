@@ -1,0 +1,23 @@
+{
+  "name": "tuto3-token-authentication-master",
+  "version": "1.0.0",
+  "description": "This repo uses JSON Web Tokens and the [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) package to implement token based authentication on a simple Node.js API.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-busboy": "0.0.2",
+    "express": "^4.13.3",
+    "forever": "^0.15.1",
+    "jsonwebtoken": "^5.5.0",
+    "limit": "0.0.1",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^4.3.4",
+    "morgan": "^1.6.1"
+  }
+}
